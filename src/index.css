@@ -32,7 +32,7 @@ main {
     @apply mt-10 xl:mt-0;
   }
   #jumbo .contain {
-    @apply flex flex-col items-center justify-between w-full lg:flex-row;
+    @apply grid grid-cols-1 lg:grid-cols-2;
   }
 }
 

@@ -5,12 +5,12 @@ const Testimonial = () => {
   return (
     <section
       id="testimonial"
-      className="flex mt-[100px] justify-between flex-col lg:flex-row overflow-x-hidden"
+      className="grid mt-[100px]  grid-cols-1 md:grid-cols-2 overflow-x-hidden"
     >
-      <div className="order-2 lg:order-1 ">
+      <div className="order-2 md:order-1 ">
         <LeftTesti />
       </div>
-      <div className="order-1 lg:order-2">
+      <div className="order-1 md:order-2 ">
         <RightTesti />
       </div>
     </section>

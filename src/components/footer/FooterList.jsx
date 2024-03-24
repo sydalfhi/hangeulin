@@ -8,7 +8,7 @@ const FooterList = () => {
   }, []);
 
   return (
-    <div className="flex mr-auto ml-10 mt-5 md:mx-auto  lg:mt-0 space-y-10 md:space-y-0 md:space-x-16 lg:space-x-[81px] flex-col md:flex-row  ">
+    <div className="flex mr-auto ml-10 mt-5 md:mx-auto  lg:mt-0 space-y-10 md:space-y-0 md:space-x-20 lg:space-x-[81px] flex-col md:flex-row  ">
       {data.map((e, i) => (
         <div key={i}>
           <h1 className="mb-6 text-lg popins">{e.title}</h1>

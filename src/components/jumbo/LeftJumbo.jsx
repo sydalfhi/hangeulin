@@ -7,8 +7,8 @@ const LeftJumbo = () => {
     setData(Header);
   }, []);
   return (
-    <div className="flex flex-col items-center justify-center order-2 w-full mx-auto mt-10 lg:w-1/2 lg:items-start space-y-7 lg:order-1 lg:mt-0">
-      <h1 className="text-center lg:text-left font-medium text-[25px] md:text-[35px] xl:text-[42px] md:w-[50%] lg:w-[80%] xl:w-[76%] ">
+    <div className="flex flex-col items-center justify-center order-2 w-full  mt-10  lg:items-start space-y-7 lg:order-1 lg:mt-0">
+      <h1 className="text-center lg:text-left font-bold text-[25px] md:text-[35px] leading-[50px] xl:text-[45px] md:w-[50%] lg:w-[80%] xl:w-[76%] ">
         Solusi
         <span className="mx-1 font-bold rubik text-[#045285]">Terbaik</span>
         Untuk Belajar Bahasa Korea

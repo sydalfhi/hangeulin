@@ -10,7 +10,7 @@ const KomentarKonsumen = () => {
 
   return (
     <div className="md:px-10 lg:px-0">
-      <p className="text-[13px] md:text-base pt-[12px] pb-[24px] popins leading-[24px] text-base font-normal w-full">
+      <p className="text-[13px] md:text-base pt-[12px] pb-[24px] popins leading-[24px] text-base font-normal w-full md:max-h-[200px]  overflow-y-auto xl:overflow-y-visible">
         {data.desk}
       </p>
       <div className="flex items-center justify-center space-x-3 lg:justify-start">

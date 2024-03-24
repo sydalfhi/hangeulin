@@ -10,7 +10,7 @@ const LeftTesti = () => {
 
   return (
     <div className="flex flex-col items-start justify-center w-full ">
-      <h1 className="mx-auto lg:mr-auto lg:text-left lg:px-0 lg:w-[505px] text-[30px] font-semibold popins lg:text-[32px] text-center ">
+      <h1 className=" mx-auto xl:mx-0 lg:mr-auto lg:text-left lg:px-0 lg:w-[505px] text-[30px] font-semibold popins lg:text-[32px]  ">
         {data.title}
       </h1>
       <KomentarKonsumen />
