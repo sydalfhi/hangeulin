@@ -38,7 +38,7 @@ const Footer = () => {
                 <input
                   type="email"
                   className="py-[10px] px-[16px] w-[307px] rounded-md mt-[16px]"
-                  placeholder="email Anda"
+                  placeholder="Email Anda"
                   required
                 />
                 <button

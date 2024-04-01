@@ -16,9 +16,9 @@ const KomentarKonsumen = () => {
       <div className="flex items-center justify-center space-x-3 lg:justify-start">
         <img src={pelanggan} alt="pelanggan" className="rounded-full" />
         <div className="flex flex-col ">
-          <h1 className="popins">Davis Franci</h1>
+          <h1 className="popins">Syaid Alfarishi</h1>
           <p className="font-light popins text-[#474747]">
-            Palembang, Sumatera Selatan
+            Padang Panjang, Sumatera Barat
           </p>
         </div>
       </div>
